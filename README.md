@@ -18,35 +18,17 @@ Production-grade Terraform infrastructure on AWS with modular architecture, remo
 - Infrastructure as Code (IaC)
 
 ## Project Structure
-
-Terraform-project/
-│
-├── environments/
-│ └── dev/
-│ ├── main.tf
-│ ├── terraform.tfvars
-│
-├── modules/
-│ ├── vpc/
-│ │ ├── main.tf
-│ │ ├── variables.tf
-│ │ └── outputs.tf
-│ │
-│ └── ec2/
-│ ├── main.tf
-│ ├── variable
-
+![Structure](image-1.png)
 
 ## Setup & Usage
 
 ### Clone the repository
 
-```bash
-git clone <your-repo-url>
-cd Terraform-project/environments/dev
+
 
 ## Setup & Usage
 
+```bash
 ### Clone the repository
 
     git clone < https://github.com/iamshubham2001/terraform-aws-multi-env-infra >
@@ -60,6 +42,8 @@ cd Terraform-project/environments/dev
     terraform plan
 ### Apply configuration
     terraform apply -auto-approve
+
+```
 
 ## Remote State Management
 
